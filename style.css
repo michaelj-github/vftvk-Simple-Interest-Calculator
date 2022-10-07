@@ -1,4 +1,54 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: verdana;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.calcform {
+    margin: 15px;
 
 
+}
+
+.calctable {
+    margin: auto;
+
+}
+
+.calctr {
+    text-align: left;
+
+}
+
+.calctd {
+    text-align: left;
+    align-items: left;
+
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.lineheight {
+    line-height: 80%;
+}
