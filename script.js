@@ -16,11 +16,11 @@ function compute()
         document.getElementById("result1").innerText="If you deposit ";
         document.getElementById("result2").innerHTML=`${parseFloat(principal)},`;
         document.getElementById("result3").innerText="at an interest rate of ";
-        document.getElementById("result4").innerHTML=`${rate}%`;
-        document.getElementById("result5").innerText="You will receive an amount of ";
+        document.getElementById("result4").innerHTML=`${rate}%,`;
+        document.getElementById("result5").innerText="you will receive an amount of ";
         document.getElementById("result6").innerHTML=`${interest},`;
         document.getElementById("result7").innerText="in the year ";
-        document.getElementById("result8").innerHTML=`${year}`;
+        document.getElementById("result8").innerHTML=`${year}.`;
      
     }
         
